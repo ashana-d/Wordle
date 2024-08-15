@@ -26,7 +26,7 @@ public class chooseWord : MonoBehaviour
         rando_word=words[random];
         rando_word=rando_word.ToUpper();
         //take out:
-        Debug.Log(rando_word);
+        // Debug.Log(rando_word);
         for (int l=0; l<rando_word.Length; l++)
         {
             string letter= rando_word[l].ToString();
