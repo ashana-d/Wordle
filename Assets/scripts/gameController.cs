@@ -39,7 +39,7 @@ public class gameController : MonoBehaviour
     public void nextRow()
     {
         if (done==false){
-            Debug.Log(c);
+            // Debug.Log(c);
             if (c<6){
                 if (c>0){
                         MonoBehaviour[] previous = rows[c-1].GetComponents<MonoBehaviour>();
